@@ -1,0 +1,332 @@
+.carousel{
+  position: absolute !important;
+  top: -55px;
+  left: 0;
+}
+.carousel .overlay{
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    background-color: #000;
+    opacity: 0.45;
+    position: absolute;
+    z-index: 20;
+}
+
+.carousel .lnr{
+    font-size:35px;
+    line-height: 660px;
+}
+.carousel-caption{
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  left: 15%;
+  z-index: 10;
+  padding-bottom: 20px;
+  color: #fff;
+/*  text-align: center;*/
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    width: 505px;
+}
+.carousel-caption h3{
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 30px;
+    width: 95%;
+}
+.carousel-caption p{
+    text-align: left;
+    font-size: 18px;
+}
+
+.slider-size {
+height: 500px; /* This is your slider height */
+/*
+background-image: url(../img/img1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+*/
+}
+.carousel {
+width:100%; 
+margin:0 auto; /* center your carousel if other than 100% */ 
+}
+.owl-carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    height: 460px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-theme .owl-controls .owl-pagination{
+    margin-top: -20px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 100%;
+    border-radius: 0;
+    vertical-align: middle;
+    background: #090909;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    height: 100%;
+    border-radius: 0;
+    vertical-align: middle;
+    background: #090909;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+}
+header .main-title h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+header .cottage-navigation {
+    width: 100px;
+    float: right;
+    margin-top: 90px;
+    
+}
+header .cottage-navigation img{
+    width: 22px;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+header .cottage-navigation img:hover{
+    opacity: 1;
+}
+#container{
+ width: 100%;
+    min-height: 800px;
+    margin-top: 120px;    
+}
+#container .content{
+    max-width: 1170px;
+    width: 95%;
+    margin: 0 auto;  
+}
+#container .content .left{
+    width: 70%;
+    float: left;
+}
+#container .content .left .cottage-title{
+    font-size: 32px;
+    margin: 20px 5px;
+}
+#container .content .left .cottage-discription{
+    width: 100%;
+    max-width: 768px;
+    font-size: 18px;
+    margin-top: 45px;
+    float: left;
+}
+#container .content .right{
+    width: 30%;
+    float: left;
+}
+#container .content .right .right-inner{
+    width: 100%;
+    max-width: 300px;
+    min-height: 300px;
+    margin-top: 85px;
+    padding: 15px;
+    float: right;
+    border: 1px solid #999999;
+}
+#container .content .right .right-inner .cottage-price{
+    
+}
+#container .content .right .right-inner .cottage-price .price{
+      font-size: 24px;
+    color: #00cc99;
+}
+#container .content .right .right-inner .cottage-price hr{
+    max-width: 150px;
+    margin: 0;
+    background-color: #00cc99;
+    height: 1px;
+}
+#container .content .right .right-inner .cottage-price p{
+    font-size: 18px;
+    color: #00cc99;
+}
+ .book-block{
+  background-color: rgb(255, 255, 255);
+/*  box-shadow: 0px 2px 3px 0px rgba(51, 51, 51, 0.75);*/
+     width: 100%;
+  max-width: 300px;
+  height: 340px;
+    float: right;
+    margin-top: -15px;
+}
+ .book-block img{
+    margin: 30px auto;
+    display: block;  
+}
+ .book-block h3{
+    font-size: 24px;
+    font-family: PT Sans ,sans-serif;
+    text-align: left;
+    color: #000;
+        margin:20px 0;
+}
+ .book-block form{
+    margin: 0 auto;
+    min-width: 225px;
+    width: 100%;
+}
+ .book-block form input[type='text']{
+    width: 100%;
+    padding: 10px 8px;
+    border: 1px solid #999;
+    margin-bottom: 20px;
+    position: relative;
+}
+ .book-block form input.text:before{
+    content: '';
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 13px;
+    right: -20px;
+    
+}
+ .book-block form input[type='submit']{
+    background-color:#03b689;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    border-color: transparent;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+}
+ .book-block form input[type='submit']:hover{
+    background-color:#00936e;
+}
+#container .content{
+    max-width: 1170px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0px 0; 
+    overflow: hidden;
+}
+#container .content .title{
+    width: 359px;
+    font-size: 32px;
+    margin: 10px 0;
+    padding-top: 20px;  
+}
+#container .content hr{
+   max-width: 320px;
+    height: 2px;
+    background-color: #00936e;
+    margin: 5px 0;  
+}
+#container .content .service-block{
+    margin: 10px auto 0;
+    padding: 10px 0 20px;
+    min-height: 400px;
+}
+#container .content .service-block .disc-image{
+     width: 50%;
+    float: right; 
+    padding: 0 40px 0 0;
+}
+#container .content .service-block .disc-image img{
+   width: 100%;
+    max-width: 570px;
+    max-height: 340px;
+/*    margin: 0 auto;*/
+    margin-top: 20px;
+}
+#container .content .service-block .servise-discription{
+   width: 50%;
+    float: right;
+     padding: 0 40px 0 0;
+}
+#container .content .service-block .servise-discription .discript-title{
+    font-size: 30px;
+        margin: 15px 0 20px;
+}
+#container .content .service-block .servise-discription hr{
+   max-width: 220px;
+    height: 2px;
+    background-color: #00936e;
+    margin: 5px 0 15px;
+}
+#container .content .service-block .servise-discription .text{
+   font-size: 18px;
+}
+#container .content .service-block:nth-child(2n) .disc-image{
+    width: 50%;
+    float: left;
+     padding: 0 40px 0 0;
+}
+#container .content .service-block:nth-child(2n) .servise-discription{
+   width: 50%;
+    float: left;
+     padding: 0 40px 0 0;
+   
+}
+
+@media screen and (max-width: 1024px) {
+   
+}
+@media screen and (max-width: 690px) {
+  #container .content .service-block .disc-image {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+#container .content .service-block .servise-discription {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+    
+    #container .content .service-block:nth-child(2n) .disc-image{
+    width: 100%;
+    float: right;
+     padding: 0;
+}
+#container .content .service-block:nth-child(2n) .servise-discription{
+   width: 100%;
+    float: right;
+     padding: 0;
+   
+}
+
+    #container .content .service-block .servise-discription .discript-title{
+    font-size: 30px;
+    margin-top: 20px;
+}
+}
+@media screen and (max-width: 480px){
+footer {
+     margin-top: 40px; 
+}
+    #container .content .service-block {
+    margin: 40px auto 0;
+    padding: 10px 0 20px;
+    min-height: 400px;
+}
+}
